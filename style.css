@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+:root {
+    --bg-color: #061410;
+    --button-color: #008000;
+    --font-family: 'Roboto', sans-serif;
+    --heading-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+}
+
+header nav li,
+.links,
+button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.sitelogo {
+    width: 100px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8%;
+    background: #153831;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin-left: 30px;
+    transition: all 0.4s;
+}
+
+.nav_links li:nth-child(4) {
+    padding: 0;
+    background-color: none;
+
+}
+
+.nav_links li:hover {
+    background-color: #061410;
+    cursor: pointer;
+}
+
+
+button {
+    padding: 9px 25px;
+    display: flex;
+    border-radius: 8px;
+    background-color: var(--button-color);
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #061410;
+}
+
+/*Heading exit from hear*/
+
+
+
+h1 {
+    color: var(--heading-color);
+    font-size: 50px;
+}
+
+p {
+    color: var(--heading-color);
+}
+
+#firstsec {
+    background-image: url(img/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    padding: 11% 9%;
+}
+
+.content p {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content a button {
+    margin-top: 20px;
+    border-radius: 4px;
+
+}
