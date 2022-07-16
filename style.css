@@ -2,6 +2,7 @@
 
 :root {
     --bg-color: #061410;
+    --light-green: #22B483;
     --button-color: #008000;
     --font-family: 'Roboto', sans-serif;
     --heading-color: white;
@@ -105,6 +106,14 @@ p {
     margin-top: 20px;
 }
 
+.content i {
+    color: var(--light-green);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
 .content a {
     text-decoration: none;
 }
@@ -112,5 +121,9 @@ p {
 .content a button {
     margin-top: 20px;
     border-radius: 4px;
+    display: inline;
+}
 
+section {
+    margin-bottom: 100px;
 }
